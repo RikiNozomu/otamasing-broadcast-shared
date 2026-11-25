@@ -5,13 +5,19 @@
   "type": "module",
   "description": "Shared assets and code of otamasing-broadcast-compact and otamasing-broadcast-intro (TypeScript source, compiled by the app's Vite)",
   "exports": {
+    "./data": "./src/data.js",
     "./components/*": "./src/components/*.tsx",
     "./lib/*": "./src/lib/*.ts",
     "./assets/*": "./src/assets/*",
     "./theme.css": "./theme.css",
     "./fonts.css": "./fonts.css"
   },
-  "files": ["src", "fonts", "theme.css", "fonts.css"],
+  "files": [
+    "src",
+    "fonts",
+    "theme.css",
+    "fonts.css"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit"
   },

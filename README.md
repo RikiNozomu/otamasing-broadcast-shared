@@ -22,6 +22,7 @@ Both apps install it straight from GitHub by tag:
 | `components/WeatherLogo` | Figma weather logos (sunny, cloudy, rain, snow) |
 | `components/Flag` | flag by ISO code, MIHO / RITTO badges |
 | `components/FitText`, `Button`, `Switch`, `Section`, `PageButtons` | small UI pieces of the dock and overlay |
+| `data` | plain-JS lists used by the race JSON schema: `SCHEMES`, `WEATHERS`, `WEATHER_KEYS` |
 | `lib/colors` | number and draw colour schemes (JRA, US, HK, GB, FR, custom), grade and Fav colours |
 | `lib/nations`, `lib/flags`, `lib/weather`, `lib/cycle`, `lib/cx`, `lib/download` | shared data and helpers |
 | `assets/*` | the raw files (logo SVG, weather SVGs, background video) |

@@ -1,8 +1,7 @@
 /** Number/draw colour schemes, the JRA bracket rule, and the grade and Fav pill colours. */
 
-/** Colour schemes of the DRAW and NO. boxes (race JSON `style.drawScheme` / `style.numberScheme`). */
-export const SCHEMES = ["jra", "us", "hk", "gb", "fr", "plain", "custom"] as const;
-export type Scheme = (typeof SCHEMES)[number];
+import type { Scheme } from "../data.js";
+export { SCHEMES, type Scheme } from "../data.js";
 /** The parts of a race's `style` the box colours read. */
 export type Style = { drawScheme: Scheme; autoDraw: boolean; customColors: Record<string, readonly [string, string]> };
 
