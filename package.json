@@ -1,0 +1,36 @@
+{
+  "name": "@otamasing/broadcast-shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared assets and code of otamasing-broadcast-compact and otamasing-broadcast-intro (TypeScript source, compiled by the app's Vite)",
+  "exports": {
+    "./components/*": "./src/components/*.tsx",
+    "./lib/*": "./src/lib/*.ts",
+    "./assets/*": "./src/assets/*",
+    "./theme.css": "./theme.css",
+    "./fonts.css": "./fonts.css"
+  },
+  "files": ["src", "fonts", "theme.css", "fonts.css"],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "flag-icons": "7.2.3"
+  },
+  "peerDependencies": {
+    "motion": ">=11",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "motion": "14.4.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
