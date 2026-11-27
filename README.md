@@ -16,7 +16,7 @@ Both apps install it straight from GitHub by tag:
 | Import | What |
 |---|---|
 | `@otamasing/broadcast-shared/theme.css` | Tailwind v4 `@theme` tokens (colours, `font-display`, `font-body`) and `@source` for the shared components |
-| `@otamasing/broadcast-shared/fonts.css` | Otamasing Display / Otamasing Sans (Thai, English, Japanese) and IBM Plex Sans bold |
+| `@otamasing/broadcast-shared/fonts.css` | Otamasing Display / Otamasing Sans (Thai, English, Japanese) and IBM Plex Mono bold (draw / horse numbers) |
 | `components/BgVideo` | สนทนาม้าซิ่ง navy tile video background, kept in step from the clock |
 | `components/Logo` | all-white สนทนาม้าซิ่ง logo |
 | `components/WeatherLogo` | Figma weather logos (sunny, cloudy, rain, snow) |
