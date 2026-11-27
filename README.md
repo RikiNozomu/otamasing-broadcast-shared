@@ -20,6 +20,7 @@ Both apps install it straight from GitHub by tag:
 | `components/BgVideo` | สนทนาม้าซิ่ง navy tile video background, kept in step from the clock |
 | `components/Logo` | all-white สนทนาม้าซิ่ง logo |
 | `components/WeatherLogo` | Figma weather logos (sunny, cloudy, rain, snow) |
+| `components/Silks`, `components/SilksPicker` | owner / stable silks pictures (130 PNGs from the Figma "Silk" component) and the dock picker; list in `lib/silks` |
 | `components/Flag` | flag by ISO code, MIHO / RITTO badges |
 | `components/FitText`, `Button`, `Switch`, `Section`, `PageButtons` | small UI pieces of the dock and overlay |
 | `data` | plain-JS lists used by the race JSON schema: `SCHEMES`, `WEATHERS`, `WEATHER_KEYS` |
